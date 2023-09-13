@@ -12,8 +12,11 @@ body,
 }
 h1 {
   font-size: 5em;
-  line-height: 1.1;
+  line-height: 1;
   pointer-events: all;
+}
+h2 {
+  font-size: 3em;
 }
 .canvas {
   position: fixed !important;

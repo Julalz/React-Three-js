@@ -1,13 +1,10 @@
 /* eslint-disable react/no-unknown-property */
-import {
-  Cloud,
-  Environment,
-  GizmoHelper,
-  OrbitControls,
-} from "@react-three/drei";
+import { Cloud, Environment, OrbitControls } from "@react-three/drei";
 import Video from "../components/Video";
 import { Suspense } from "react";
 import { Perro } from "../components/Perro";
+import { Coche } from "../components/Coche";
+import { Desk } from "../components/Desk";
 
 export const HomeScene = () => {
   return (
@@ -55,10 +52,12 @@ export const HomeScene = () => {
       </mesh>{" "}
       <Suspense fallback={null}>
         <Perro
-          position={[-1, -5.8, -5.1]}
-          rotation-y={(Math.PI / 0, 31)}
-          scale={1.5}
+          position={[-1.6, 0.161, -1.2]}
+          rotation-y={Math.PI / 0.9}
+          scale={0.6}
         />
+        <Coche position={[2.9, 6.4, 3]} />
+        <Desk position={[-2, -5.9, -4]} scale={0.02} />
       </Suspense>
       <Cloud
         color={"white"}

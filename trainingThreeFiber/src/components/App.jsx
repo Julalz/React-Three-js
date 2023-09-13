@@ -6,8 +6,8 @@ export const App = () => {
     <>
       <main className="app ">
         <section className="container-section">
-          <h1>Developer Junior</h1>
-          <h2>Julian Alz</h2>
+          <h1>Julian Alz</h1>
+          <h2>Junior Developer</h2>
         </section>
       </main>
 
